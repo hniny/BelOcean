@@ -1,0 +1,33 @@
+body {
+    font-family: "Oswald"!important;
+}
+.text-main-color{
+    color: rgb(2, 2, 85);
+}
+.text-second-color{
+    color: #616161;
+}
+.card{
+    font-size: 14px;
+}
+.file-padding{
+    padding-top: 10rem;
+    font-size: 14px;
+}
+.form-control {
+    height: calc(1em + .75rem + 2px);
+}
+@media only screen and (max-width: 600px) {
+    img{
+        width:200px;
+    }
+    .card{
+        font-size: 12px;
+    }
+    h3{
+        font-size: 1rem;
+    }
+    h4{
+        font-size: 0.8rem;
+    }
+}
